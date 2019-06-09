@@ -1,0 +1,26 @@
+{
+  "name": "spotify-list-back-end",
+  "version": "1.0.0",
+  "description": "List of some artists, integrated with Spotify API.",
+  "main": "index.js",
+  "author": "Anne Ílary de Moraes Gomes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.16.1",
+    "@types/mysql": "^2.15.6",
+    "@types/url-join": "^4.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5",
+    "url-join": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "yarn nodemon"
+  }
+}

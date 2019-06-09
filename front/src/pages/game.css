@@ -1,0 +1,32 @@
+.line {
+    height: 30px;
+    border-bottom: 2px solid black;
+}
+
+#linhas {
+    overflow: hidden;
+    position: relative;
+    padding: 60px;
+}
+
+#botoes {
+    padding: 60px;
+}
+
+.note {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(/img/note.png);
+    background-size: contain;
+    top: 65px;
+}
+
+.meuscore {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    background: black;
+    display: inline-block;
+}
